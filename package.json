@@ -1,0 +1,26 @@
+{
+  "name": "generator-multiple-page",
+  "version": "1.0.0",
+  "description": "generator-multiple-page",
+  "main": "generators/app/index.js",
+  "files": [
+    "generators"
+  ],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zfw279046483/generator-multiple-page.git"
+  },
+  "keywords": [
+    "generator-multiple-page"
+  ],
+  "author": "zfw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zfw279046483/generator-multiple-page/issues"
+  },
+  "homepage": "https://github.com/zfw279046483/generator-multiple-page#readme",
+  "devDependencies": {
+    "yeoman-generator": "^5.6.1"
+  }
+}

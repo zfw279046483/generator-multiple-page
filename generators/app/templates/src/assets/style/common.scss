@@ -1,0 +1,10 @@
+@import "./variable";
+@font-face {
+  font-family: "xxk";
+  src: url("../font/xxk/xxk.ttf"),
+       url("../font/xxk/xxk.woff2") format("woff2"),
+       url("../font/xxk/xxk.woff") format("woff");
+}
+
+*{margin: 0;padding: 0;}
+html, body{background: #000;}

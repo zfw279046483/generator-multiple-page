@@ -1,0 +1,19 @@
+{
+  "name": "<%= name %>",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "zw-multiple-page-gulp build",
+    "dev": "zw-multiple-page-gulp dev",
+    "clean": "zw-multiple-page-gulp clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "zw-multiple-page-gulp": "^1.0.1"
+  },
+  "dependencies": {
+    "bootstrap": "^3.4.1"
+  }
+}
