@@ -24,6 +24,7 @@ module.exports = class extends Generator {
       'src/assets/views/index/index.js',
       'src/assets/views/index/images/pic.jpg',
       'src/zhtml/layout/head.html',
+      'src/zhtml/layout/foot.html',
       'src/zhtml/index.html',
       '.gitignore',
       'package.json',
