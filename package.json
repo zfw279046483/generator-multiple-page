@@ -1,6 +1,6 @@
 {
   "name": "generator-multiple-page",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "generator-multiple-page",
   "main": "generators/app/index.js",
   "files": [
