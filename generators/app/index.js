@@ -26,7 +26,7 @@ module.exports = class extends Generator {
       'src/zhtml/layout/head.html',
       'src/zhtml/layout/foot.html',
       'src/zhtml/index.html',
-      '.gitignore',
+      '.npmignore',
       'package.json',
       'pages.config.js',
       'README.md'
@@ -34,9 +34,10 @@ module.exports = class extends Generator {
 
     templates.forEach(item => {
       // item: 每个文件的路径
+      const src = item === '.npmignore' ? '.gitignore' : item
       this.fs.copyTpl(
         this.templatePath(item),
-        this.destinationPath(`${this.answer.name}/${item}`),
+        this.destinationPath(`${this.answer.name}/${src}`),
         this.answer
       )
     })
