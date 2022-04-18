@@ -1,10 +1,11 @@
 {
   "name": "generator-multiple-page",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "generator-multiple-page",
   "main": "generators/app/index.js",
   "files": [
-    "generators"
+    "generators",
+    ".gitignore"
   ],
   "scripts": {},
   "repository": {
